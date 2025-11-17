@@ -9,7 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "jspdf": "^3.0.3",
     "next": "16.0.3",
+    "pdfkit": "^0.17.2",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
