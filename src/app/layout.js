@@ -15,8 +15,11 @@ export default function RootLayout({ children }) {
       <body className="bg-gray-100 text-gray-900">
         <Navbar />
         <SpeedInsights />
-        <Analytics />
-        <main className="min-h-screen px-4 md:px-8 py-6">{children}</main>
+        <main className="min-h-screen px-4 md:px-8 py-6">
+          {children}
+          <Analytics />
+
+        </main>
         <Footer />
       </body>
     </html>
