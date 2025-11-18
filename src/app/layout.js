@@ -15,9 +15,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-gray-100 text-gray-900">
 
-      <Script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6004304352641395"
-      strategy="afterInteractive"
-     crossorigin="anonymous"></Script>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6004304352641395"
+          strategy="afterInteractive"
+          crossorigin="anonymous">
+            
+          </Script>
 
         <Navbar />
         <SpeedInsights />
