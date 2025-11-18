@@ -18,9 +18,9 @@ export default function RootLayout({ children }) {
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6004304352641395"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
           crossorigin="anonymous">
-            
+
           </Script>
 
         <Navbar />
