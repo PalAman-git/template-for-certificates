@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-white shadow-sm py-4 px-6 flex justify-between items-center">
       <Link href="/" className="text-xl font-bold">
-        DocGen
+        Sarkari Prarup
       </Link>
 
       <div className="flex gap-4 text-sm md:text-base">
