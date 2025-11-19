@@ -9,13 +9,9 @@ export default function Navbar() {
         Sarkari Prarup
       </Link>
 
-      <div className="flex gap-4 text-sm md:text-base">
-        <Link href="/gap-certificate">Gap</Link>
-        <Link href="/domicile-certificate">Domicile</Link>
-        <Link href="/income-certificate">Income</Link>
-        <Link href="/ews-certificate">EWS</Link>
-        <Link href="/resume-builder">Resume</Link>
-      </div>
+      <Link href="/subscribe" className="bg-blue-600 text-white px-3 py-2 rounded text-sm hover:bg-blue-700 transition">
+  Unlimited Certs ₹99
+</Link>
     </nav>
   );
 }
